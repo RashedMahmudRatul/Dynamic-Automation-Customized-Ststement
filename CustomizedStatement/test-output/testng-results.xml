@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="84642" started-at="2020-10-22T20:13:13 BDT" finished-at="2020-10-22T20:14:38 BDT">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="20535" started-at="2020-10-22T20:13:13 BDT" finished-at="2020-10-22T20:13:34 BDT">
+      <class name="Tests.CustomizedStatement001">
+        <test-method status="PASS" signature="broswerConfig(java.lang.String)[pri:0, instance:Tests.CustomizedStatement001@7a187f14]" name="broswerConfig" is-config="true" duration-ms="6158" started-at="2020-10-22T20:13:13 BDT" finished-at="2020-10-22T20:13:19 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broswerConfig -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Tests.CustomizedStatement001@7a187f14]" name="login" duration-ms="11693" started-at="2020-10-22T20:13:19 BDT" description="Check if login  goes to manager page" finished-at="2020-10-22T20:13:31 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CStatement001()[pri:0, instance:Tests.CustomizedStatement001@7a187f14]" name="CStatement001" duration-ms="2614" started-at="2020-10-22T20:13:31 BDT" description="Check Customized Statement with Valid inputs" finished-at="2020-10-22T20:13:34 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CStatement001 -->
+      </class> <!-- Tests.CustomizedStatement001 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="14045" started-at="2020-10-22T20:13:34 BDT" finished-at="2020-10-22T20:13:48 BDT">
+      <class name="Tests.CustomizedStatement002">
+        <test-method status="PASS" signature="broswerConfig(java.lang.String)[pri:0, instance:Tests.CustomizedStatement002@46daef40]" name="broswerConfig" is-config="true" duration-ms="3515" started-at="2020-10-22T20:13:34 BDT" finished-at="2020-10-22T20:13:37 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broswerConfig -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Tests.CustomizedStatement002@46daef40]" name="login" duration-ms="9984" started-at="2020-10-22T20:13:37 BDT" description="Check if login  goes to manager page" finished-at="2020-10-22T20:13:47 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CStatement002()[pri:0, instance:Tests.CustomizedStatement002@46daef40]" name="CStatement002" duration-ms="541" started-at="2020-10-22T20:13:47 BDT" description="Keep Account No. Box blank" finished-at="2020-10-22T20:13:48 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CStatement002 -->
+      </class> <!-- Tests.CustomizedStatement002 -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="12173" started-at="2020-10-22T20:13:48 BDT" finished-at="2020-10-22T20:14:00 BDT">
+      <class name="Tests.CustomizedStatement003">
+        <test-method status="PASS" signature="broswerConfig(java.lang.String)[pri:0, instance:Tests.CustomizedStatement003@1e7c7811]" name="broswerConfig" is-config="true" duration-ms="3349" started-at="2020-10-22T20:13:48 BDT" finished-at="2020-10-22T20:13:51 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broswerConfig -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Tests.CustomizedStatement003@1e7c7811]" name="login" duration-ms="8292" started-at="2020-10-22T20:13:51 BDT" description="Check if login  goes to manager page" finished-at="2020-10-22T20:13:59 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CStatement003()[pri:0, instance:Tests.CustomizedStatement003@1e7c7811]" name="CStatement003" duration-ms="527" started-at="2020-10-22T20:13:59 BDT" description="Fill Account no box with Characters" finished-at="2020-10-22T20:14:00 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CStatement003 -->
+      </class> <!-- Tests.CustomizedStatement003 -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="11264" started-at="2020-10-22T20:14:00 BDT" finished-at="2020-10-22T20:14:11 BDT">
+      <class name="Tests.CustomizedStatement004">
+        <test-method status="PASS" signature="broswerConfig(java.lang.String)[pri:0, instance:Tests.CustomizedStatement004@ed9d034]" name="broswerConfig" is-config="true" duration-ms="3513" started-at="2020-10-22T20:14:00 BDT" finished-at="2020-10-22T20:14:04 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broswerConfig -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Tests.CustomizedStatement004@ed9d034]" name="login" duration-ms="7257" started-at="2020-10-22T20:14:04 BDT" description="Check if login  goes to manager page" finished-at="2020-10-22T20:14:11 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CStatement004()[pri:0, instance:Tests.CustomizedStatement004@ed9d034]" name="CStatement004" duration-ms="488" started-at="2020-10-22T20:14:11 BDT" description="Check Customized Statement Transaction Value Amount Lower Limit with  InValid inputs" finished-at="2020-10-22T20:14:11 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CStatement004 -->
+      </class> <!-- Tests.CustomizedStatement004 -->
+    </test> <!-- Test4 -->
+    <test name="Test5" duration-ms="13800" started-at="2020-10-22T20:14:11 BDT" finished-at="2020-10-22T20:14:25 BDT">
+      <class name="Tests.CustomizedStatement005">
+        <test-method status="PASS" signature="broswerConfig(java.lang.String)[pri:0, instance:Tests.CustomizedStatement005@11758f2a]" name="broswerConfig" is-config="true" duration-ms="3374" started-at="2020-10-22T20:14:11 BDT" finished-at="2020-10-22T20:14:15 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broswerConfig -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Tests.CustomizedStatement005@11758f2a]" name="login" duration-ms="7708" started-at="2020-10-22T20:14:15 BDT" description="Check if login  goes to manager page" finished-at="2020-10-22T20:14:22 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CStatement005()[pri:0, instance:Tests.CustomizedStatement005@11758f2a]" name="CStatement005" duration-ms="2712" started-at="2020-10-22T20:14:22 BDT" description="Check Customized Statement Transaction Value Amount Lower Limit with  InValid inputs" finished-at="2020-10-22T20:14:25 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CStatement005 -->
+      </class> <!-- Tests.CustomizedStatement005 -->
+    </test> <!-- Test5 -->
+    <test name="Test6" duration-ms="12764" started-at="2020-10-22T20:14:25 BDT" finished-at="2020-10-22T20:14:38 BDT">
+      <class name="Tests.CustomizedStatement006">
+        <test-method status="PASS" signature="broswerConfig(java.lang.String)[pri:0, instance:Tests.CustomizedStatement006@757942a1]" name="broswerConfig" is-config="true" duration-ms="3366" started-at="2020-10-22T20:14:25 BDT" finished-at="2020-10-22T20:14:28 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broswerConfig -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Tests.CustomizedStatement006@757942a1]" name="login" duration-ms="8866" started-at="2020-10-22T20:14:28 BDT" description="Check if login  goes to manager page" finished-at="2020-10-22T20:14:37 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CStatement006()[pri:0, instance:Tests.CustomizedStatement006@757942a1]" name="CStatement006" duration-ms="528" started-at="2020-10-22T20:14:37 BDT" description="Check Customized Statement Transaction Value Amount Lower Limit with  InValid inputs" finished-at="2020-10-22T20:14:38 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CStatement006 -->
+      </class> <!-- Tests.CustomizedStatement006 -->
+    </test> <!-- Test6 -->
+  </suite> <!-- Suite -->
+</testng-results>
