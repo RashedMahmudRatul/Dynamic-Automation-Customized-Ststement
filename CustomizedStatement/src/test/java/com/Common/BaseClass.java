@@ -24,6 +24,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 	
 	public static WebDriver driver; 
+	
   @Parameters("browser")
   @BeforeClass
   public void broswerConfig(String bswr) {
@@ -33,23 +34,25 @@ public class BaseClass {
 		  { 
 		  WebDriverManager.firefoxdriver().setup();
 		  
+		  
 		  driver= new FirefoxDriver();
 		  }
 		  
 		  else if(bswr.equals("chrome"))
 		  {
 		  WebDriverManager.chromedriver().setup();
+		  //Headless
 		  ChromeOptions obj = new ChromeOptions();
 		  obj.setHeadless(true);
-		  driver = new ChromeDriver(obj);
+		 driver = new ChromeDriver(obj);
 		 // driver = new ChromeDriver();
 		  }
 		
 		
-	    // WebDriverManager.firefoxdriver().setup();
+	   // WebDriverManager.firefoxdriver().setup();
 		// driver = new FirefoxDriver();
 	  
-	 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
   }
  
@@ -80,7 +83,6 @@ public class BaseClass {
 	 {
 		 System.out.println("Test Failled");
 	 }
-	 
 	 driver.findElement(By.cssSelector(".menusubnav > li:nth-child(14) > a:nth-child(1)")).click();
 
 }

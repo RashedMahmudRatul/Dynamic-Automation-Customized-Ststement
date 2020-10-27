@@ -33,12 +33,14 @@
     </classes>
   </test> <!-- Test -->
   
+
    <test thread-count="5" name="Test5">
   <parameter name= "browser" value= "chrome"></parameter>
     <classes>
       <class name="Tests.CustomizedStatement005"/>
     </classes>
   </test> <!-- Test -->
+  
      <test thread-count="5" name="Test6">
   <parameter name= "browser" value= "chrome"></parameter>
     <classes>
@@ -46,7 +48,11 @@
     </classes>
   </test> <!-- Test -->
   
-  
-  
+   <test thread-count="5" name="Test7">
+  <parameter name= "browser" value= "chrome"></parameter>
+    <classes>
+      <class name="Tests.CustomizedStatement007"/>
+    </classes>
+  </test> <!-- Test -->
   
 </suite> <!-- Suite -->
